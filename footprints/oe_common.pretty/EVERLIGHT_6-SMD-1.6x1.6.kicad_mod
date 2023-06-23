@@ -36,7 +36,7 @@
     (thermal_bridge_angle 0) (tstamp cde2221b-4f57-42fd-a5ba-b3fbeef237d8))
   (pad "6" smd rect (at -0.675 0.725) (size 0.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 0) (tstamp 1e406eaf-3deb-43da-a6b4-e3966696a6b2))
-  (model "${OE_3D_DIR}/EAST1616RGBA8.STEP"
+  (model "${OE_3DMODEL_DIR}/EAST1616RGBA8.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
