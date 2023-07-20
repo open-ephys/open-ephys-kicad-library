@@ -78,7 +78,7 @@
   (pad "8" smd roundrect (at 2.8 -1.15) (size 0.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0911255a-d74b-48e0-b639-a3a669298a37))
   (pad "MP" smd roundrect (at -4.1 0.8) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp d4704c19-a2c2-4baf-a3c5-f7ad769d7f5b))
   (pad "MP" smd roundrect (at 4.1 0.8) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 7276a3a4-81d9-4847-a378-437ed8739b8e))
-  (model "${OE_3D_DIR}/JST_SM08B-SURS-TF.STEP"
+  (model "${OE_3DMODEL_DIR}/JST_SM08B-SURS-TF.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

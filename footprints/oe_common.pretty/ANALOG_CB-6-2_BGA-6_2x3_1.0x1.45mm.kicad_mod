@@ -39,4 +39,9 @@
   (pad "B2" smd circle (at 0.25 0) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd688920-9ce1-4361-af14-dd948e83425e))
   (pad "C1" smd circle (at -0.25 0.5) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd688920-9ce1-4361-af14-dd948e83425e))
   (pad "C2" smd circle (at 0.25 0.5) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd688920-9ce1-4361-af14-dd948e83425e))
+  (model "${OE_3DMODEL_DIR}/ANALOG_CB-6-2_BGA-6_2x3_1.0x1.45mm.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

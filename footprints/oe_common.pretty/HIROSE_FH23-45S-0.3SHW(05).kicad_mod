@@ -88,7 +88,7 @@
   (pad "43" smd rect (at 6 1.775) (size 0.3 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c0623265-23f7-4770-98d9-d8037834bccd))
   (pad "44" smd rect (at 6.3 -2.65) (size 0.3 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5370c023-b36e-42fe-81d4-b91b53a7b87c))
   (pad "45" smd rect (at 6.6 1.775) (size 0.3 1.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ac15d4a2-0daa-4b9e-a904-9fc8a75140d8))
-  (model "C:/Users/open-ephys/public/open-ephys-kicad-library/packages3d/HIROSE_FH23-45S-0.3SHW(05).STEP"
+  (model "${OE_3DMODEL_DIR}/HIROSE_FH23-45S-0.3SHW(05).STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
