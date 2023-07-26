@@ -1,7 +1,17 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+# Only these files and folders
+*/
+!.gitinore
+!REAME.md
+!footprints/
+!packages3d/
+!packages3d-source/
+!symbols/
+
 # Temporary files
+*.zip
 *.000
 *.bak
 *.bck
