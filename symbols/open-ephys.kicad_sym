@@ -187,9 +187,17 @@
       )
     )
     (symbol "ADA4096-4ACPZ_5_0"
+      (pin no_connect line (at -2.54 0 180) (length 2.54) hide
+        (name "NIC" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -2.54 0 180) (length 2.54) hide
+        (name "NIC" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at -2.54 -7.62 90) (length 3.81) hide
         (name "V-" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ADA4096-4ACPZ_5_1"
@@ -265,7 +273,7 @@
     (property "Value" "ADP5133" (at 0 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "oe_common:ANALOG_CB-16-8_BGA-16_4x4_2.0x2.0mm" (at 0 0 0)
+    (property "Footprint" "open-ephys:ANALOG_CB-16-8_BGA-16_4x4_2.0x2.0mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5133.pdf" (at 0 0 0)
@@ -287,6 +295,10 @@
       (pin passive line (at 0 -34.29 90) (length 5.08) hide
         (name "AGND" (effects (font (size 1.27 1.27))))
         (number "A3" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 0 -34.29 90) (length 5.08) hide
+        (name "AGND" (effects (font (size 1.27 1.27))))
+        (number "B1" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "ADP5133_1_1"
