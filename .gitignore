@@ -6,6 +6,7 @@
 !.gitinore
 !REAME.md
 !footprints/
+!footprints/*/
 !packages3d/
 !packages3d-source/
 !symbols/
