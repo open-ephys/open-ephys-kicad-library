@@ -1,6 +1,6 @@
 (footprint "ANALOG_CB-16-8_BGA-16_4x4_2.0x2.0mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 32becd9a-bfbb-425a-ad4b-731350face03)

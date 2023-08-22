@@ -72,7 +72,7 @@
     (property "Value" "ADA4096-4ACPZ" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "open-ephys:ANALOG_CP-16-22_LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm" (at 0 0 0)
+    (property "Footprint" "open-ephys:ANALOG_CP-16-22_LFCSP-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm" (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4096-2_4096-4.pdf" (at 0 0 0)
@@ -187,7 +187,7 @@
       )
     )
     (symbol "ADA4096-4ACPZ_5_0"
-      (pin no_connect line (at -2.54 0 180) (length 2.54) hide
+      (pin no_connect line (at -2.54 -1.27 180) (length 2.54) hide
         (name "NIC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -1612,6 +1612,12 @@
     )
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "ki_keywords" "BGA Neuropixels IMEC Bioamplifer" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "BGA Packaged Neuropixels 1.0" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "NRIC1384_1_0"
       (pin input line (at -20.32 15.24 0) (length 5.08)
