@@ -3,11 +3,11 @@
   (descr "DRV0006A")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference "IC**" (at 0 -2.05) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.05) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e284e982-f79d-4f1e-9107-2f43e5aebcf6)
   )
-  (fp_text value "SON65P200X200X80-7N" (at -0.05 -2.05) (layer "F.SilkS") hide
+  (fp_text value "SON65P200X200X80-7N" (at 0 2.15) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c479fab0-1d4d-4345-bd8d-a3fdf80fdc30)
   )

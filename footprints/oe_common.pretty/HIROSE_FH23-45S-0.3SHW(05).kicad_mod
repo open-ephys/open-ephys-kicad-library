@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c6a2ae98-4877-414f-a0be-9fd6b47a0aa3)
   )
-  (fp_text value "FH23-45S-0.3SHW(05)" (at 0 -4.4) (layer "F.SilkS") hide
+  (fp_text value "FH23-45S-0.3SHW(05)" (at 0 3.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cad02863-f750-43b6-8e9a-083f953006cf)
   )
