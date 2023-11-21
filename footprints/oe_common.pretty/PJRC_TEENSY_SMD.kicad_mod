@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 -38.354 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.12)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 45ecb43d-dc1c-4e8a-b016-10c294c6e279)
   )
   (fp_text value "PJRC_TEENSY_SMD" (at 0 -38.354 unlocked) (layer "F.Fab")
