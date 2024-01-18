@@ -6,6 +6,7 @@
 - ./footprints/: KiCAD footprint libaries
 - ./packages3d/: KiCAD 3D model libaries
 - ./packages3d-source/: Editable source for 3D models
+- ./sheets/: Drawing sheet templates
 
 ## Environment Variables
 Define the following path name environment variables to get things to show up correctly:
@@ -13,3 +14,4 @@ Define the following path name environment variables to get things to show up co
 - OE_3DMODEL_DIR: ./packages3d/	
 - OE_FOOTPRINT_DIR: ./footprints/
 - OE_SYMBOL_DIR: ./symbols/
+- OE_SHEET_DIR: ./sheets/
