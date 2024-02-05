@@ -10,6 +10,7 @@
 !packages3d/
 !packages3d-source/
 !symbols/
+!sheets/
 
 # Temporary files
 *.zip
