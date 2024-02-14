@@ -69,8 +69,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 96494579-db5a-4eca-b4a6-167a312e6a52))
   (pad "" np_thru_hole circle (at 0 -2.5) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 677b7121-d976-4376-8272-25f179cbf148))
   (pad "" np_thru_hole circle (at 0 4.5) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 7e8a1b5a-9cd6-4453-9889-562c518aa842))
+  (pad "G" smd rect (at -3.7 -3.6) (size 2.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a386088f-968b-40bb-a2cb-d8bae878f5c5))
   (pad "R" smd rect (at 3.7 -1.6) (size 2.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 23a7dd7c-b0a2-46ed-b5fc-ce636f8e154b))
-  (pad "S" smd rect (at -3.7 -3.6) (size 2.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a386088f-968b-40bb-a2cb-d8bae878f5c5))
   (pad "T" smd rect (at -3.7 5.8) (size 2.8 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4c3686c3-6d58-4d7d-a22c-7165b41b9544))
   (pad "TN" smd rect (at 0.75 9.8) (size 2.8 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7775896a-5710-4807-ad0a-3cecdae0282a))
   (model "${OE_3DMODEL_DIR}/CUI_SJ-3524_SMT_Jack_3.5mm_Horizontal.STEP"
