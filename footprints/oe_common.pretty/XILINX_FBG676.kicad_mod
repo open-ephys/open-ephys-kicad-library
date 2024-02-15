@@ -718,7 +718,7 @@
   (pad "Y24" smd circle (at 10.5 6.5) (size 0.53 0.53) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2973cb51-7844-490e-9cfa-6c4f2fb5f768))
   (pad "Y25" smd circle (at 11.5 6.5) (size 0.53 0.53) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 19dc7297-d05e-46c4-8240-66687dc6d22d))
   (pad "Y26" smd circle (at 12.5 6.5) (size 0.53 0.53) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 600f1e74-0633-43e2-a37e-355c92643414))
-  (model "${JONNEW_KICAD_LIB_DIR}/models/XILINX_FBG676.STEP"
+  (model "${OE_3DMODEL_DIR}/XILINX_FBG676.STEP"
     (offset (xyz 0 0 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
