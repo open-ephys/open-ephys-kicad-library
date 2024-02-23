@@ -77,7 +77,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d6f1af5b-1014-4994-a1c1-ecab9706d8c6))
   (pad "1" smd rect (at -3.025 0) (size 2.35 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5838e2b3-ff82-446d-a560-2523ffef060b))
   (pad "2" smd rect (at 3.025 0) (size 2.35 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ee757a3d-c365-4c9f-a4f4-8290cb41a627))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sumida_CDMC6D28_7.25x6.5mm.wrl"
+  (model "${OE_3DMODEL_DIR}/L_Sumida_0630CDMCD_7x6.6mm.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
