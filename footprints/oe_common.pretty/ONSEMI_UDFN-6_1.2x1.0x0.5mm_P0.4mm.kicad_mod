@@ -1,0 +1,217 @@
+(footprint "ONSEMI_UDFN-6_1.2x1.0x0.5mm_P0.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "ESDR0502NMUTBG ")
+	(property "Reference" "U**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d88e897-38d4-46b8-9c9d-6381ba77ec4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ONSEMI_UDFN-6_1.2x1.0x0.5mm_P0.4mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fb70898e-174c-4d0f-b947-1bfe86ee798e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d613a2db-1f51-43a4-ab02-63dc269b6b2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e8b921-cd85-4c9d-b571-99e0cf0fbd83")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7463e1-9649-4a72-99c5-95b9a9fbea9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.75 -0.75)
+		(end -0.7 -0.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5b22ec24-01b9-476f-ab54-8cba91f51ce0")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "b65fa19e-e4dc-49d4-b7df-fd6ceaa4e26b")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "c15e80b9-1df4-4250-bbf2-06f1cc848137")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "a16843ac-5e24-4bf7-8f27-7ff6b1f1d220")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce864c8b-9c82-4ee4-8e00-b9a6c0808284")
+	)
+	(fp_line
+		(start -0.6 -0.25)
+		(end -0.6 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c3af2da9-43bf-4057-8e2b-14132709c027")
+	)
+	(fp_line
+		(start -0.6 0.5)
+		(end 0.6 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e79fb5a-7617-484b-9b93-6e9f9fe2d788")
+	)
+	(fp_line
+		(start -0.35 -0.5)
+		(end -0.6 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0717f72e-2a1c-4e51-8bb7-ccb61f89629d")
+	)
+	(fp_line
+		(start -0.35 -0.5)
+		(end 0.6 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a567b04e-f258-4c88-9fe4-67fb81fbf2e8")
+	)
+	(fp_line
+		(start 0.6 -0.5)
+		(end 0.6 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bf45660d-22e7-4259-a585-9ce9c4c0530c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "210aed81-1fcd-47bb-94e3-d7dde0094a90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.4)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "077a680c-d419-4f99-8ee9-c69ff46cbba6")
+	)
+	(pad "2" smd rect
+		(at -0.4 0)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d0e3393-6259-496b-8cf6-0da945a9c66c")
+	)
+	(pad "3" smd rect
+		(at -0.4 0.4)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c0df8e5-6cbe-45bf-aeeb-49f003030c98")
+	)
+	(pad "4" smd rect
+		(at 0.4 0.4)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60d82042-6ee4-4f6a-afe5-2f8490c9a42d")
+	)
+	(pad "5" smd rect
+		(at 0.4 0)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "21994558-609d-483c-a584-41cb0c7be8f0")
+	)
+	(pad "6" smd rect
+		(at 0.4 -0.4)
+		(size 0.42 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1d60a7b3-bd27-4ea9-9cf2-1fee43f74234")
+	)
+)
