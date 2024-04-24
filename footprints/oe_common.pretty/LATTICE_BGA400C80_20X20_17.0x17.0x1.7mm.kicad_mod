@@ -1,4 +1,4 @@
-(footprint "BGA400C80P20X20_1700X1700X170"
+(footprint "LATTICE_BGA400C80_20X20_17.0x17.0x1.7mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -6,7 +6,7 @@
 	(descr "400-Ball caBGA Package")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 -9.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c615be32-258f-428d-80d7-92e5fc6290b6")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "BGA400C80P20X20_1700X1700X170"
+	(property "Value" "LATTICE_BGA400C80_20X20_17.0x17.0x1.7mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -2617,5 +2617,16 @@
 		(size 0.41 0.41)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3fde5585-96d7-48b6-ac04-238948b52748")
+	)
+	(model "${OE_3DMODEL_DIR}/LATTICE_LFBGA-400_17x17mm_20x20_P0.8mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

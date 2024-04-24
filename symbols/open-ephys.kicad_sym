@@ -7754,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "oe:LATTICE_BGA121C50_11X11_6.0X6.0X1.0mm"
 			(at 1.27 2.54 0)
 			(effects
 				(font
@@ -7772,7 +7772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crosslink-NX FPGA"
 			(at 1.27 2.54 0)
 			(effects
 				(font
@@ -7787,6 +7787,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_keywords" "onix-hostmod-crosslink-nx-tester, fpga, lattice, crosslink"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "LIFCL-17-CSFBGA121_1_1"
@@ -9406,7 +9415,7 @@
 			(pin power_in line
 				(at -16.51 6.35 0)
 				(length 3.81)
-				(name "VCCDPHY0"
+				(name "VCCPLLDPHY0"
 					(effects
 						(font
 							(size 1.27 1.27)
