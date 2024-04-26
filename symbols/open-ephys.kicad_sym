@@ -7734,7 +7734,7 @@
 			)
 		)
 	)
-	(symbol "LIFCL-17-CSFBGA121"
+	(symbol "LIFCL-17-xCSFBGA121"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7746,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Value" "LIFCL-17-CSFBGA121"
+		(property "Value" "LIFCL-17-xCSFBGA121"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://static6.arrow.com/aropdfconversion/1e1bec9dc2e697d0865a732da7957e62b6e138a3/fpga-ds-02049-1-5-crosslink-nx-family.pdf"
 			(at 1.27 2.54 0)
 			(effects
 				(font
@@ -7798,7 +7798,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_1_1"
+		(symbol "LIFCL-17-xCSFBGA121_1_1"
 			(rectangle
 				(start -12.7 19.05)
 				(end 12.7 -19.05)
@@ -7993,7 +7993,7 @@
 			(pin bidirectional line
 				(at 16.51 3.81 180)
 				(length 3.81)
-				(name "PT61A/MCSD/PCKLT0_1"
+				(name "PT61A/MCSN/PCKLT0_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8045,7 +8045,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_2_1"
+		(symbol "LIFCL-17-xCSFBGA121_2_1"
 			(rectangle
 				(start -12.7 17.78)
 				(end 12.7 -17.78)
@@ -8292,7 +8292,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_3_1"
+		(symbol "LIFCL-17-xCSFBGA121_3_1"
 			(rectangle
 				(start -19.05 21.59)
 				(end 19.05 -21.59)
@@ -8611,7 +8611,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_4_1"
+		(symbol "LIFCL-17-xCSFBGA121_4_1"
 			(rectangle
 				(start -19.05 21.59)
 				(end 19.05 -21.59)
@@ -8930,7 +8930,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_5_1"
+		(symbol "LIFCL-17-xCSFBGA121_5_1"
 			(rectangle
 				(start -25.4 21.59)
 				(end 25.4 -21.59)
@@ -9249,7 +9249,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_6_0"
+		(symbol "LIFCL-17-xCSFBGA121_6_0"
 			(pin bidirectional line
 				(at 16.51 -11.43 180)
 				(length 3.81)
@@ -9485,7 +9485,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_6_1"
+		(symbol "LIFCL-17-xCSFBGA121_6_1"
 			(rectangle
 				(start -12.7 13.97)
 				(end 12.7 -13.97)
@@ -9498,7 +9498,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_7_0"
+		(symbol "LIFCL-17-xCSFBGA121_7_0"
 			(pin power_in line
 				(at -17.78 11.43 0)
 				(length 5.08)
@@ -9734,7 +9734,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_7_1"
+		(symbol "LIFCL-17-xCSFBGA121_7_1"
 			(rectangle
 				(start -12.7 13.97)
 				(end 12.7 -13.97)
@@ -9747,7 +9747,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_8_0"
+		(symbol "LIFCL-17-xCSFBGA121_8_0"
 			(pin power_in line
 				(at -10.16 7.62 0)
 				(length 3.81)
@@ -9875,7 +9875,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_8_1"
+		(symbol "LIFCL-17-xCSFBGA121_8_1"
 			(rectangle
 				(start -6.35 10.16)
 				(end 6.35 -10.16)
@@ -9888,7 +9888,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_9_0"
+		(symbol "LIFCL-17-xCSFBGA121_9_0"
 			(pin power_in line
 				(at -10.16 -12.7 0)
 				(length 3.81)
@@ -10088,7 +10088,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-17-CSFBGA121_9_1"
+		(symbol "LIFCL-17-xCSFBGA121_9_1"
 			(rectangle
 				(start -6.35 15.24)
 				(end 6.35 -15.24)
@@ -10102,7 +10102,7 @@
 			)
 		)
 	)
-	(symbol "LIFCL-40-9BG400C"
+	(symbol "LIFCL-40-xBG400C"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10114,7 +10114,7 @@
 				)
 			)
 		)
-		(property "Value" "LIFCL-40-9BG400C"
+		(property "Value" "LIFCL-40-xBG400C"
 			(at 50.8 24.384 0)
 			(effects
 				(font
@@ -10166,7 +10166,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_1_0"
+		(symbol "LIFCL-40-xBG400C_1_0"
 			(pin bidirectional line
 				(at 17.78 13.97 180)
 				(length 5.08)
@@ -10402,7 +10402,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_1_1"
+		(symbol "LIFCL-40-xBG400C_1_1"
 			(rectangle
 				(start -12.7 16.51)
 				(end 12.7 -16.51)
@@ -10415,7 +10415,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_2_0"
+		(symbol "LIFCL-40-xBG400C_2_0"
 			(pin bidirectional line
 				(at 17.78 26.67 180)
 				(length 5.08)
@@ -11299,7 +11299,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_2_1"
+		(symbol "LIFCL-40-xBG400C_2_1"
 			(rectangle
 				(start -12.7 29.21)
 				(end 12.7 -29.21)
@@ -11312,7 +11312,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_3_0"
+		(symbol "LIFCL-40-xBG400C_3_0"
 			(pin bidirectional line
 				(at 17.78 31.75 180)
 				(length 5.08)
@@ -11926,7 +11926,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_3_1"
+		(symbol "LIFCL-40-xBG400C_3_1"
 			(rectangle
 				(start -12.7 36.83)
 				(end 12.7 -36.83)
@@ -11939,7 +11939,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_4_0"
+		(symbol "LIFCL-40-xBG400C_4_0"
 			(pin bidirectional line
 				(at 24.13 11.43 180)
 				(length 5.08)
@@ -12553,7 +12553,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_4_1"
+		(symbol "LIFCL-40-xBG400C_4_1"
 			(rectangle
 				(start -19.05 41.91)
 				(end 19.05 -41.91)
@@ -12566,7 +12566,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_5_0"
+		(symbol "LIFCL-40-xBG400C_5_0"
 			(pin bidirectional line
 				(at 17.78 -6.35 180)
 				(length 5.08)
@@ -13180,7 +13180,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_5_1"
+		(symbol "LIFCL-40-xBG400C_5_1"
 			(rectangle
 				(start -12.7 41.91)
 				(end 12.7 -41.91)
@@ -13193,7 +13193,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_6_0"
+		(symbol "LIFCL-40-xBG400C_6_0"
 			(pin bidirectional line
 				(at 30.48 -3.81 180)
 				(length 5.08)
@@ -13645,7 +13645,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_6_1"
+		(symbol "LIFCL-40-xBG400C_6_1"
 			(rectangle
 				(start -25.4 13.97)
 				(end 25.4 -13.97)
@@ -13658,7 +13658,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_7_0"
+		(symbol "LIFCL-40-xBG400C_7_0"
 			(pin bidirectional line
 				(at 17.78 34.29 180)
 				(length 5.08)
@@ -14272,7 +14272,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_7_1"
+		(symbol "LIFCL-40-xBG400C_7_1"
 			(rectangle
 				(start -12.7 36.83)
 				(end 12.7 -36.83)
@@ -14285,7 +14285,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_8_0"
+		(symbol "LIFCL-40-xBG400C_8_0"
 			(pin bidirectional line
 				(at 17.78 26.67 180)
 				(length 5.08)
@@ -15205,7 +15205,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_8_1"
+		(symbol "LIFCL-40-xBG400C_8_1"
 			(rectangle
 				(start -12.7 29.21)
 				(end 12.7 -29.21)
@@ -15218,7 +15218,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_9_0"
+		(symbol "LIFCL-40-xBG400C_9_0"
 			(pin bidirectional line
 				(at 17.78 11.43 180)
 				(length 5.08)
@@ -15454,7 +15454,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_9_1"
+		(symbol "LIFCL-40-xBG400C_9_1"
 			(rectangle
 				(start -12.7 13.97)
 				(end 12.7 -13.97)
@@ -15467,7 +15467,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_10_0"
+		(symbol "LIFCL-40-xBG400C_10_0"
 			(pin bidirectional line
 				(at 17.78 -8.89 180)
 				(length 5.08)
@@ -15703,7 +15703,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_10_1"
+		(symbol "LIFCL-40-xBG400C_10_1"
 			(rectangle
 				(start -12.7 13.97)
 				(end 12.7 -13.97)
@@ -15716,7 +15716,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_11_0"
+		(symbol "LIFCL-40-xBG400C_11_0"
 			(pin input line
 				(at 17.78 6.35 180)
 				(length 5.08)
@@ -15862,7 +15862,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_11_1"
+		(symbol "LIFCL-40-xBG400C_11_1"
 			(rectangle
 				(start -12.7 8.89)
 				(end 12.7 -8.89)
@@ -15875,7 +15875,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_12_0"
+		(symbol "LIFCL-40-xBG400C_12_0"
 			(pin input line
 				(at 17.78 -5.08 180)
 				(length 5.08)
@@ -16093,7 +16093,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_12_1"
+		(symbol "LIFCL-40-xBG400C_12_1"
 			(rectangle
 				(start -12.7 10.16)
 				(end 12.7 -12.7)
@@ -16106,7 +16106,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_13_0"
+		(symbol "LIFCL-40-xBG400C_13_0"
 			(pin no_connect line
 				(at -17.78 7.62 0)
 				(length 5.08) hide
@@ -16234,7 +16234,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_13_1"
+		(symbol "LIFCL-40-xBG400C_13_1"
 			(rectangle
 				(start -12.7 10.16)
 				(end 12.7 -10.16)
@@ -16247,7 +16247,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_14_0"
+		(symbol "LIFCL-40-xBG400C_14_0"
 			(pin power_in line
 				(at -17.78 15.24 0)
 				(length 5.08)
@@ -16519,7 +16519,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_14_1"
+		(symbol "LIFCL-40-xBG400C_14_1"
 			(rectangle
 				(start -12.7 20.32)
 				(end 12.7 -20.32)
@@ -16532,7 +16532,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_15_0"
+		(symbol "LIFCL-40-xBG400C_15_0"
 			(pin power_in line
 				(at -17.78 -31.75 0)
 				(length 5.08)
@@ -17578,7 +17578,7 @@
 				)
 			)
 		)
-		(symbol "LIFCL-40-9BG400C_15_1"
+		(symbol "LIFCL-40-xBG400C_15_1"
 			(rectangle
 				(start -12.7 64.77)
 				(end 12.7 -80.01)
@@ -19038,22 +19038,42 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 11.176 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MX25L12833FM2"
+			(at -1.27 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOIC127P790X216-8N"
+			(at 39.37 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/7447/MX25L12833F,%203V,%20128Mb,%20v1.0.pdf"
+			(at 39.37 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MACRONIX - MX25L12833FM2I-10G - Flash Memory, Serial NOR, 128 Mbit, 16M x 8bit, SPI, SOP, 8 Pins"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19062,28 +19082,10 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MX25L12833FM2_0_1"
+		(symbol "MX25L12833FM2I-10G_1_1"
 			(rectangle
-				(start -7.62 10.16)
-				(end 7.62 -10.16)
+				(start -16.51 6.35)
+				(end 16.51 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -19092,11 +19094,9 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "MX25L12833FM2_1_1"
 			(pin input line
-				(at -10.16 6.35 0)
-				(length 2.54)
+				(at -21.59 3.81 0)
+				(length 5.08)
 				(name "CS#"
 					(effects
 						(font
@@ -19113,26 +19113,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -3.81 0)
-				(length 2.54)
-				(name "HOLD#/SIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 1.27 0)
-				(length 2.54)
+				(at -21.59 1.27 0)
+				(length 5.08)
 				(name "SO/SIO1"
 					(effects
 						(font
@@ -19148,27 +19130,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 12.7 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -10.16 -1.27 0)
-				(length 2.54)
+				(at -21.59 -1.27 0)
+				(length 5.08)
 				(name "WP#/SIO2"
 					(effects
 						(font
@@ -19185,8 +19149,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
-				(length 2.54)
+				(at -21.59 -3.81 0)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -19203,8 +19167,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 3.81 0)
-				(length 2.54)
+				(at 21.59 -3.81 180)
+				(length 5.08)
 				(name "SI/SIO0"
 					(effects
 						(font
@@ -19221,8 +19185,8 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -6.35 0)
-				(length 2.54)
+				(at 21.59 -1.27 180)
+				(length 5.08)
 				(name "SCLK"
 					(effects
 						(font
@@ -19231,6 +19195,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21.59 1.27 180)
+				(length 5.08)
+				(name "RESET#/SIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 3.81 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
