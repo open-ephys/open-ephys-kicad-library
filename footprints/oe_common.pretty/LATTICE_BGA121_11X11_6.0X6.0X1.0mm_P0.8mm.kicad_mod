@@ -1,4 +1,4 @@
-(footprint "LATTICE_BGA121C50_11X11_6.0X6.0X1.0mm"
+(footprint "LATTICE_BGA121_11X11_6.0X6.0X1.0mm_P0.8mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LATTICE_BGA121C50_11X11_6.0X6.0X1.0mm"
+	(property "Value" "LATTICE_BGA121_11X11_6.0X6.0X1.0mm_P0.8mm"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
