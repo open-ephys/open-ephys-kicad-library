@@ -15,3 +15,6 @@ Define the following path name environment variables to get things to show up co
 - OE_FOOTPRINT_DIR: ./footprints/
 - OE_SYMBOL_DIR: ./symbols/
 - OE_SHEET_DIR: ./sheets/
+
+## Library Name
+When importing symbol and footprint libraries into kicad, we use the name "open-ephys"
