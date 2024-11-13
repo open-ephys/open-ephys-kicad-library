@@ -1,0 +1,241 @@
+(footprint "KINGBRIGHT_WP934ADGD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3mm Single-Level Circuit Board Indicator ")
+	(tags "LED")
+	(property "Reference" "D**"
+		(at 3.3 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "ee5f89e1-90db-4a1d-a2d0-360ae3f4fa69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WP934ADGD"
+		(at -1.8 -1.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b042fe3d-210a-4010-b52c-d67baf215448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19d845bd-e0d7-4d18-9ac8-f7ec210a0930")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP934AD-GD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14c0884c-edfe-4320-997c-f20ea44717ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "3mm Single-Level Circuit Board Indicator "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe0ec345-ff41-4d20-9e89-7c7918263104")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.2 0)
+		(end 2.7 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17b53f56-39f3-4b61-b814-0b1fa441743e")
+	)
+	(fp_line
+		(start 2.7 -0.5)
+		(end 2.7 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21b137c2-f712-4286-9a2a-18c0354fe797")
+	)
+	(fp_line
+		(start 2.7 0.5)
+		(end 2.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd940c60-a754-4a4b-ae9b-b193ba09877d")
+	)
+	(fp_rect
+		(start -4.3 -3.8)
+		(end 1.9 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "51735f1f-b352-4396-9037-773c4e744739")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2 0) (xy 2.7 -0.5) (xy 2.7 0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9c74e984-2ca2-41e5-8452-8213d274f119")
+	)
+	(fp_rect
+		(start -7.3 -4)
+		(end 2.7 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e376edd6-3ebf-490c-9aeb-6dcaa486edda")
+	)
+	(fp_line
+		(start -5.1 0.18)
+		(end -4.15 0.18)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4886c3e3-9723-4c88-a122-9c25f9f7fe32")
+	)
+	(fp_line
+		(start -4.15 -2.72)
+		(end -5.1 -2.72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3e7c819-6d45-4ed5-8076-092436a2fa2e")
+	)
+	(fp_line
+		(start -4.1 -3.57)
+		(end 1.7 -3.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10d286e3-f205-42f3-83c7-fcfff44e8b49")
+	)
+	(fp_line
+		(start -4.1 1.03)
+		(end -4.1 -3.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a1678dd-48a7-4416-8785-d786b880d076")
+	)
+	(fp_line
+		(start 1.7 -3.57)
+		(end 1.7 1.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1a4026a-0b2a-4fdf-9049-02ba3069b697")
+	)
+	(fp_line
+		(start 1.7 1.03)
+		(end -4.1 1.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26eedca0-1c46-4a5b-91d4-b23dd0b50361")
+	)
+	(fp_arc
+		(start -5.1 0.18)
+		(mid -6.55 -1.27)
+		(end -5.1 -2.72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "464a755b-b668-45a1-82b0-87ea404068d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.4 -1.3 0)
+		(layer "F.Fab")
+		(uuid "0828f109-e9f3-40ef-b533-24d860750859")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "975281f6-d5a9-42e3-ad33-de153c60775c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4edf10f0-1515-4870-8a6e-4f90a64c24dc")
+	)
+	(model "${OE_3DMODEL_DIR}/KINGBRIGHT_WP934ADGD.STEP"
+		(offset
+			(xyz -1.5 1.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
