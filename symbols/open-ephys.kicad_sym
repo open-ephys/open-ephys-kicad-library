@@ -30883,7 +30883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -30932,11 +30932,31 @@
 				)
 			)
 		)
+		(symbol "LTC4365xDDB_1_0"
+			(pin passive line
+				(at 0 -21.59 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LTC4365xDDB_1_1"
 			(pin power_in line
 				(at 0 -21.59 90)
 				(length 2.54)
-				(name "V_{IN}"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30954,7 +30974,7 @@
 			(pin input line
 				(at -11.43 -15.24 0)
 				(length 2.54)
-				(name "UV"
+				(name "OV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30972,7 +30992,7 @@
 			(pin input line
 				(at -11.43 -5.08 0)
 				(length 2.54)
-				(name "OV"
+				(name "UV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -30990,7 +31010,7 @@
 			(pin power_in line
 				(at -11.43 15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31005,10 +31025,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 0 21.59 270)
 				(length 2.54)
-				(name "~{SHDN}"
+				(name "GATE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31023,10 +31043,10 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin input line
 				(at 11.43 15.24 180)
 				(length 2.54)
-				(name "~{FAULT}"
+				(name "V_{OUT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31041,10 +31061,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 11.43 -7.62 180)
 				(length 2.54)
-				(name "V_{OUT}"
+				(name "~{FAULT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31062,7 +31082,7 @@
 			(pin output line
 				(at -11.43 5.08 0)
 				(length 2.54)
-				(name "GATE"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31147,12 +31167,24 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 20.32 -7.62) (xy 25.4 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "LTC4365xTS8_1_1"
 			(pin power_in line
-				(at 0 -21.59 90)
+				(at -11.43 15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "V_{IN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31160,24 +31192,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -15.24 0)
-				(length 2.54)
-				(name "OV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31195,6 +31209,24 @@
 						)
 					)
 				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -15.24 0)
+				(length 2.54)
+				(name "OV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "3"
 					(effects
 						(font
@@ -31204,9 +31236,9 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 15.24 0)
+				(at 0 -21.59 90)
 				(length 2.54)
-				(name "V_{IN}"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31221,10 +31253,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 21.59 270)
+			(pin input line
+				(at -11.43 5.08 0)
 				(length 2.54)
-				(name "GATE"
+				(name "~{SHDN}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31232,6 +31264,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 11.43 -7.62 180)
+				(length 2.54)
+				(name "~{FAULT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31249,24 +31299,6 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 11.43 -7.62 180)
-				(length 2.54)
-				(name "~{FAULT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "7"
 					(effects
 						(font
@@ -31276,9 +31308,9 @@
 				)
 			)
 			(pin output line
-				(at -11.43 5.08 0)
+				(at 0 21.59 270)
 				(length 2.54)
-				(name "~{SHDN}"
+				(name "GATE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -31286,24 +31318,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -21.59 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
