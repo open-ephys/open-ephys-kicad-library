@@ -1,22 +1,22 @@
-(footprint "SAMESKY-TS04-66-XX-BK-XXX-SMT-XX"
+(footprint "SAMESKY_TS04-66-XX-BK-XXX-SMT-XX"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -1.2 -3.9 0)
+		(at -1.2 -4.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "91317306-9ca7-4885-a1bc-ec60bbe31671")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "SAMESKY-TS04-66-XX-BK-XXX-SMT-XX"
-		(at -0.05 0 0)
+	(property "Value" "SAMESKY_TS04-66-XX-BK-XXX-SMT-XX"
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f1e64580-2dfb-420e-a1c6-69dc98597c54")
@@ -147,45 +147,16 @@
 		(layer "F.SilkS")
 		(uuid "8714d334-b93a-471a-9097-f1c7eec8ca84")
 	)
-	(fp_line
-		(start -7 -3.4)
-		(end -7 3.4)
+	(fp_rect
+		(start -5.85 -3.5)
+		(end 5.85 3.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "37f79e19-ac1e-4405-b609-7a601c8ebf7d")
-	)
-	(fp_line
-		(start -7 -3.4)
-		(end 7 -3.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "141a24a9-a9fe-4fa8-8de2-58c64e5f2b09")
-	)
-	(fp_line
-		(start -7 3.4)
-		(end 7 3.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "59cd30f9-2dd6-4102-acd6-9caa8ae39f8e")
-	)
-	(fp_line
-		(start 7 3.4)
-		(end 7 -3.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "dc1e84fa-1281-4a4d-b9bb-cef7bf0c339d")
+		(uuid "030259f7-f67d-40fa-b5b3-fc3b0a04507f")
 	)
 	(fp_line
 		(start -2.95 -3)
@@ -250,27 +221,38 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -5.6 -2.25)
+		(at -4.55 -2.25)
 		(size 2.1 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1d3d3cc8-25d2-44cb-9dc9-e8f96b290216")
 	)
 	(pad "1" smd rect
-		(at 5.6 -2.25)
+		(at 4.55 -2.25)
 		(size 2.1 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a1faf81b-4d47-4b66-ace3-7a4a42ef9a08")
 	)
 	(pad "2" smd rect
-		(at -5.6 2.25)
+		(at -4.55 2.25)
 		(size 2.1 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5028a442-fd94-402b-a663-c66f260a7235")
 	)
 	(pad "2" smd rect
-		(at 5.6 2.25)
+		(at 4.55 2.25)
 		(size 2.1 1.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "20a054f5-6e00-45c1-96d3-bb94ed68f1c8")
+	)
+	(model "${OE_3DMODEL_DIR}/SAMESKY_TS04-66-XX-BK-XXX-SMT-XX.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
