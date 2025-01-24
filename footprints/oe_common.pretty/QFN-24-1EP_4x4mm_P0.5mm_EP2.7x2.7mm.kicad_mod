@@ -1,4 +1,4 @@
-(footprint "QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+(footprint "QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+	(property "Value" "QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 		(at 0 3.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -456,30 +456,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "f6889feb-a891-4231-91a4-639a8da99e99")
 	)
-	(pad "25" thru_hole circle
-		(at -1.1 0)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "09130c21-ff54-403d-9d86-6c0ff7f64daf")
-	)
-	(pad "25" thru_hole circle
-		(at 0 -1.1)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e8035baa-ec0e-485b-a2b1-e41c67c1a1f7")
-	)
-	(pad "25" thru_hole circle
-		(at 0 0)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "0ef65c7b-1950-40b5-b002-6927d70b9f52")
-	)
 	(pad "25" smd roundrect
 		(at 0 0)
 		(size 2.7 2.7)
@@ -487,22 +463,6 @@
 		(roundrect_rratio 0.01851851852)
 		(thermal_bridge_angle 45)
 		(uuid "43e4c016-44b1-4832-b473-b1651dd6b9c7")
-	)
-	(pad "25" thru_hole circle
-		(at 0 1.1)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d27584b8-2e76-4333-96ac-5d0663e2d6d4")
-	)
-	(pad "25" thru_hole circle
-		(at 1.1 0)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "70853ef2-805b-4624-9129-c63f5b7441de")
 	)
 	(model "${OE_3DMODEL_DIR}/QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm.STEP"
 		(offset
