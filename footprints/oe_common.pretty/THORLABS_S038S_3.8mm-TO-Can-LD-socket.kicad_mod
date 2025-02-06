@@ -1,0 +1,187 @@
+(footprint "THORLABS_S038S_3.8mm-TO-Can-LD-socket"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3 Pin Laser Diode Socket for 3.8 mm Lasers")
+	(tags "TO Can Laser LD")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Rescue")
+		(uuid "3c24a6a3-ebfd-4b01-bde6-7509264b0127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "THORLABS_S038S_3.8mm-TO-Can-LD-socket"
+		(at 0 2.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c03f8675-9042-4bf5-9cf1-8413efaaa567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c835979c-4518-49d8-9099-cc6f22ac82e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.thorlabs.com/drawings/9e616c7f078a81c7-652B1986-FC63-6308-EDF8AB23A8DCF934/S038S-SpecSheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16004ac5-f575-4487-96e5-595a9fc701ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3 Pin Laser Diode Socket for 3.8 mm Lasers"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "874f2f63-1d79-40c7-9b35-c13c4d842924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -0.4 1.997213)
+		(mid 0 1.75)
+		(end 0.4 1.997214)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68d0644c-b941-43d0-824f-2964b66491ad")
+	)
+	(fp_arc
+		(start -0.4 2)
+		(mid 0 -2.039608)
+		(end 0.4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74aecfc3-6706-448b-8e14-92869f228755")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a805cc4-d509-4fdc-b8e9-6a77e8e63420")
+	)
+	(fp_arc
+		(start -0.4 1.997214)
+		(mid 0 -2.042394)
+		(end 0.4 1.997214)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5dddb142-1650-4c84-8930-8a86fbfb637d")
+	)
+	(fp_arc
+		(start -0.4 1.999999)
+		(mid 0 1.752786)
+		(end 0.4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bac5504c-5404-4a98-a9f9-4e4756b2fe1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "deb93c1b-ff2f-45c4-9d57-2c307c9d8118")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4fdee6ae-a13e-4230-a057-0033d848b641")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -0.7 0 45)
+		(size 0.8 0.8)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "5e09fd80-8a85-4742-bf43-e425d337312f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0.7)
+		(size 0.8 0.8)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "390579a8-408c-45ff-8430-854a5988cf8c")
+	)
+	(pad "3" thru_hole circle
+		(at 0.7 0)
+		(size 0.8 0.8)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f87a855f-2af7-4308-b662-aa510c55b1a8")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/THORLABS_S038S_3.8mm-TO-Can-LD-socket.STEP"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

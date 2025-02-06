@@ -1,0 +1,165 @@
+(footprint "THORLABS_S7060R_5.6mm-TO-Can-LD-socket"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3 Pin Laser Diode Socket for 5.6 mm Lasers")
+	(tags "TO Can Laser LD")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "Rescue")
+		(uuid "3c24a6a3-ebfd-4b01-bde6-7509264b0127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "THORLABS_S7060R_5.6mm-TO-Can-LD-socket"
+		(at 0 2.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c03f8675-9042-4bf5-9cf1-8413efaaa567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c5fd1dd-9e71-4515-bb7e-3a5beb148cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.thorlabs.com/drawings/9e616c7f078a81c7-652B1986-FC63-6308-EDF8AB23A8DCF934/S7060R-SpecSheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16004ac5-f575-4487-96e5-595a9fc701ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3 Pin Laser Diode Socket for 5.6 mm Lasers"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "874f2f63-1d79-40c7-9b35-c13c4d842924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0.000001 -0.002786)
+		(end 0.000001 2.67723)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "737401c5-1425-437b-829c-65430901d550")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a805cc4-d509-4fdc-b8e9-6a77e8e63420")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 2.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c3f55898-b824-4212-9cda-ba1a34264512")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fb0f40e-c854-4e26-97ed-7662c90eaa33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "639f5316-3a06-4d72-b123-63a27dde7ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1 0 45)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "5e09fd80-8a85-4742-bf43-e425d337312f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "390579a8-408c-45ff-8430-854a5988cf8c")
+	)
+	(pad "3" thru_hole circle
+		(at 1 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f87a855f-2af7-4308-b662-aa510c55b1a8")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/THORLABS_S7060R_5.6mm-TO-Can-LD-socket.STEP"
+		(offset
+			(xyz 0 0 2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 180)
+		)
+	)
+)
