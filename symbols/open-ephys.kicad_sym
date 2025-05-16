@@ -13976,7 +13976,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -21.59 90)
 				(length 3.81)
 				(name "VSSADPHY0"
@@ -14270,7 +14270,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -16.51 90)
 				(length 3.81)
 				(name "VSS"
