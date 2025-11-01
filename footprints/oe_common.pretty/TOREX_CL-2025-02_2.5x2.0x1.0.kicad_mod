@@ -1,0 +1,220 @@
+(footprint "TOREX_CL-2025-02_2.5x2.0x1.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CL-2025-02")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 -0.063 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f48470a2-7837-477b-8ab8-e5dd04464a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XCL103D503CRG"
+		(at 0 -0.063 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a9c7eb6d-25f5-4019-9dc9-d4e0c451a7e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c53e05fe-926d-4f45-b977-6b5b52608622")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b19ed0c9-312c-44bc-85c0-6f5f177ef890")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -1.05 1.25)
+		(mid -1 1.2)
+		(end -0.95 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfc02055-37fd-48cf-9312-839173e24f59")
+	)
+	(fp_arc
+		(start -0.95 1.25)
+		(mid -1 1.3)
+		(end -1.05 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81aeb1a2-6e13-4fae-8980-4429cea24336")
+	)
+	(fp_rect
+		(start -1.6 -1.275)
+		(end 1.6 1.325)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d054a600-cb18-4f73-8947-13ba0b0b84df")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "633aaf6f-354f-499d-ad21-860e4334831d")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9d7f850-efee-4987-ab08-2cf20ce587b9")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "321ab4bf-796d-4b36-bd06-ccfce9feb860")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "370ccdce-882d-4f9f-b821-ae80b0150542")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a2cfab0-e1b5-48a1-a28e-5e0b8fd606b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db294670-335b-406e-902a-951fd262b619")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0.938)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f27dc51-33f3-4e30-8c2d-d4413cf9a17c")
+	)
+	(pad "2" smd rect
+		(at 0 0.938)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2cbae25-11a1-4020-8fbf-95a616279e7a")
+	)
+	(pad "3" smd rect
+		(at 0.55 0.938)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e80f0ea-eda4-4bae-a188-a28daa84adfe")
+	)
+	(pad "4" smd rect
+		(at 0.55 -0.937)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1368f14-bfdc-4a74-86bd-24a6fa1a663f")
+	)
+	(pad "5" smd rect
+		(at 0 -0.937)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50d301de-a811-4b4e-bc4e-d2f57961faf3")
+	)
+	(pad "6" smd rect
+		(at -0.55 -0.937)
+		(size 0.35 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3627c72e-87cd-4a6b-8979-81b3e5c69f76")
+	)
+	(pad "7" smd rect
+		(at -1.25 0)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e62146f-1641-43b2-886a-e71c04b585b5")
+	)
+	(pad "8" smd rect
+		(at 1.25 0)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c4e8061-f532-4c9b-a0a9-9abec75ad30f")
+	)
+	(pad "9" smd rect
+		(at 0 0 90)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1baa6ef-0384-46fe-990e-5fcc5e6a1372")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/TOREX_CL-2025-02_2.5x2.0x1.0.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
