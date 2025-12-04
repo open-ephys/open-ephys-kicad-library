@@ -1,0 +1,136 @@
+(footprint "TI_YBH0004-C01_WLCSP4-1.085x0.87x0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 -1.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "929a4e41-f9f1-4977-855d-816cd849aef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TI_YBH0004-C01_WLCSP4-1.085x0.87x0.4mm"
+		(at -0.17 -2.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e5846bf-a348-4bdc-870d-cddc0ba6aa81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d68ae63e-2460-40dd-bb5e-83b9ef5ebfe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1145d6d-557e-450c-bc1e-21e2a85823c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.53 -0.45)
+		(end -0.53 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31aae394-7208-4a1f-9443-b287b6721d85")
+	)
+	(fp_rect
+		(start -0.64 0.55)
+		(end 0.64 -0.53)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "657a5b2f-603d-45aa-95b8-5eae767e9436")
+	)
+	(fp_poly
+		(pts
+			(xy -0.55 -0.1) (xy -0.2 -0.45) (xy 0.55 -0.45) (xy 0.55 0.45) (xy -0.55 0.45)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "73058092-b2aa-4614-9650-62e73f00ae1c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7f50e9a-1e29-43a5-8e03-420b0229a5f7")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e106ce8-eb2e-4fa5-a233-61729d7ba69b")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "169af422-4685-4ea6-85d4-0a7bc9a554bf")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73ef69ee-4883-4d76-9546-3285f56cc425")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "785bc5a5-a994-440b-98d8-30374fd927e5")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/TI_YBH0004-C01_WLCSP4-1.085x0.87x0.4mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz -1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
