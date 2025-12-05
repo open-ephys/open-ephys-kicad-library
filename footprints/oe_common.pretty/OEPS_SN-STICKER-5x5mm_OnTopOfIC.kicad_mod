@@ -1,4 +1,4 @@
-(footprint "OEPS_SN-STICKER-5x5mm"
+(footprint "OEPS_SN-STICKER-5x5mm_OnTopOfIC"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -18,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "OEPS_SN-STICKER-5x5mm"
+	(property "Value" "OEPS_SN-STICKER-5x5mm_OnTopOfIC"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -63,22 +63,11 @@
 		(end 2.7 2.7)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "28339ba8-0760-4f40-8f08-167abef336ad")
-	)
-	(fp_rect
-		(start -2.9 -2.9)
-		(end 2.9 2.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "cf5a3210-9c81-450b-bfdc-f999732e2008")
 	)
 	(fp_poly
 		(pts
@@ -473,38 +462,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "723dab17-c8e5-481d-9348-372fc1578664")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -2.7 -2.7) (xy 2.7 -2.7) (xy 2.7 2.7) (xy -2.7 2.7)
 			)
 		)
 	)
