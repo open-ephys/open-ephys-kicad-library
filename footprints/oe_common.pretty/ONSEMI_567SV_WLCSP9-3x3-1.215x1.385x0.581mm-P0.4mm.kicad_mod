@@ -295,4 +295,15 @@
 		(uuid "89ba3d8c-0317-4e47-ad07-08cd4821078b")
 	)
 	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/ONSEMI_567SV_WLCSP9-3x3-1.215x1.385x0.581mm-P0.4mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,0 +1,181 @@
+(footprint "SMTRA_M3-7-5ET"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Surface Mount Right Angle Fastener")
+	(tags "Fastener Test Point")
+	(property "Reference" "REF**"
+		(at 0 -5.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9da99bd9-feea-4d97-aa9a-ffe7caebf277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMTRA_M3-7-5ET"
+		(at -0.1 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31ba330c-4a2b-4ea5-b5d8-e43654e8dae8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c558d98-a619-445c-a310-42705c061442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Surface Mount Right Angle Fastener"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c156b15d-c5a7-46ad-ad9a-6d194c6fddc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -3.750001 -2.475) (xy -3.750001 -4.6) (xy 3.75 -4.6) (xy 3.75 -2.475)
+			(arc
+				(start 3.050001 -2.474998)
+				(mid 2.375 -2.997316)
+				(end 1.7 -2.475)
+			)
+			(arc
+				(start -1.700002 -2.475)
+				(mid -2.375 -2.997316)
+				(end -3.05 -2.474998)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "1866c46c-ab6c-4d6e-bb16-3a40bff44fda")
+	)
+	(fp_poly
+		(pts
+			(xy 3.750001 -2.125) (xy 3.750001 0) (xy -3.75 0) (xy -3.75 -2.125)
+			(arc
+				(start -3.050001 -2.125002)
+				(mid -2.375 -1.602684)
+				(end -1.7 -2.125)
+			)
+			(arc
+				(start 1.700002 -2.125)
+				(mid 2.375 -1.602684)
+				(end 3.05 -2.125002)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "c4837e4c-fffe-4c89-89d0-6c7647d4d6fd")
+	)
+	(fp_line
+		(start 5 0)
+		(end -5 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "a6db05f9-c428-4822-943e-1a6ce359228f")
+	)
+	(fp_rect
+		(start -4.1 -5)
+		(end 4.1 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5e8c7665-8e97-4f60-9b0e-3efd18358f53")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "97a8b2c4-871d-472d-ace8-66fbac705377")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.2 0)
+		(layer "F.Fab")
+		(uuid "c7a6462e-2a85-4e62-97dc-3abcebb846ef")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.375 -2.3)
+		(size 2 2)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb975500-f7a5-449e-b8a4-2e267a300821")
+	)
+	(pad "1" smd rect
+		(at 0 -2.3)
+		(size 7.5 4.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dcf1b560-0a73-4cd4-a87f-7690674d7d9a")
+	)
+	(pad "1" thru_hole circle
+		(at 2.375 -2.3)
+		(size 2 2)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68a30d9b-49a3-440e-ae41-836fd5be340b")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/SMTRA_M3-7-5ET.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
