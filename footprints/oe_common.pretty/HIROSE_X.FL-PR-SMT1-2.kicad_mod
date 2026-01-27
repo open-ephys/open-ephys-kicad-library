@@ -1,0 +1,237 @@
+(footprint "HIROSE_X.FL-PR-SMT1-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3945e7d9-cea5-4d0c-aa74-ad73631668fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HIROSE_X.FL-PR-SMT1-2"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc334aa1-6ebf-48d2-89cd-7a97befdf070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79062e3b-836e-4840-a41a-c2de217874e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "618e6c55-5b3f-4f10-b311-1c7700fcb665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1.1)
+		(end -0.5 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "937633d8-af7f-434a-b00a-4ebd9ac7e4e6")
+	)
+	(fp_line
+		(start -0.505 1)
+		(end -1.095 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c9d39fc-5f6a-42f2-b6ba-42264f89f1b1")
+	)
+	(fp_line
+		(start 0.5 -1.1)
+		(end 1.1 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1172fe2-7053-4263-a463-d5fd7b1cd2c5")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 1.5) (xy 1.5 1.5) (xy 1.5 -1.6) (xy -1.5 -1.6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e9d9b24f-7ef3-4e0b-9c3e-0dc7d9830d91")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ab5fcd53-3f8e-4ccd-bc56-3c897846843d")
+	)
+	(fp_circle
+		(center 0 0.65)
+		(end 0.1 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3c79e442-471e-4648-802e-672c63265d0f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b793d794-c201-41d5-b17f-98a4ff28e793")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.025 180)
+		(size 0.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c46a3c8b-35e0-4b6b-8c60-7b658a09b5c8")
+	)
+	(pad "2" smd custom
+		(at -1.1925 0 90)
+		(size 1.35 0.415)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.4 -0.2075)
+				(end 0.675 0.2925)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.675 -0.2075)
+				(end -0.4 0.2925)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "992ed0c7-ddb4-4ee4-b7bf-07848b48a904")
+	)
+	(pad "2" smd rect
+		(at 0 -1.215 180)
+		(size 0.5 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02f7cd38-e80c-4cea-990c-b710e96f02a9")
+	)
+	(pad "2" smd custom
+		(at 1.1925 0 90)
+		(size 1.35 0.415)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.4 -0.2925)
+				(end 0.675 0.2075)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.675 -0.2925)
+				(end -0.4 0.2075)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "6f72eb00-9b98-4c89-a2c0-bde5dc5e574c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "ad70acd3-893e-4558-8f33-f63c95f51b8a")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.9 -0.4) (xy -0.985 -0.4) (xy -0.985 0.4) (xy -0.9 0.4) (xy -0.9 0.675) (xy -0.25 0.675) (xy -0.25 0.65)
+				(xy 0.25 0.65) (xy 0.25 0.675) (xy 0.9 0.675) (xy 0.9 0.4) (xy 0.985 0.4) (xy 0.985 -0.4) (xy 0.9 -0.4)
+				(xy 0.9 -0.93) (xy -0.9 -0.93)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/HIROSE_X.FL-PR-SMT1-2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

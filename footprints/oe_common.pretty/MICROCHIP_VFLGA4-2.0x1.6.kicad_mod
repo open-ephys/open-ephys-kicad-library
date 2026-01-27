@@ -1,7 +1,7 @@
 (footprint "MICROCHIP_VFLGA4-2.0x1.6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bdf5f311-ff13-4c4d-8c53-03a2d3bf50d2")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -178,7 +168,7 @@
 	(pad "1" smd custom
 		(at -0.475 -0.725)
 		(size 0.2 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -198,22 +188,23 @@
 	(pad "2" smd rect
 		(at -0.475 0.775)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8bd6dea0-8182-4402-b3c1-4f2c457fef27")
 	)
 	(pad "3" smd rect
 		(at 0.475 0.775)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6dbf2597-988f-4a7e-8e8a-316d9235cfb6")
 	)
 	(pad "4" smd rect
 		(at 0.475 -0.775)
 		(size 0.7 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8eab4204-a43b-4c93-aa3a-04243fcf1948")
 	)
-	(model "${JONNEW_KICAD_LIB_DIR}/models/MICROCHIP_VFLGA4-2.0x1.6.STEP"
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/MICROCHIP_VFLGA4-2.0x1.6.STEP"
 		(offset
 			(xyz 0 0 0.02)
 		)

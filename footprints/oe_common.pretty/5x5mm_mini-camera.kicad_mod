@@ -1,0 +1,201 @@
+(footprint "5x5mm_mini-camera"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f01f65e-5298-4b38-af2e-29350f006125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "5x5mm_mini-camera"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd0a8194-f20e-452d-bfcd-5ff2a24c5c76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa2b7de7-ac1c-4807-be81-029d38b57b49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cedba8e0-7f4f-4c32-8c00-738fbb766ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6cc1d146-86b2-439d-a1be-ed37a450238d")
+	)
+	(fp_line
+		(start -2.3 2.6)
+		(end 2.3 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b2b1eeb7-4a5c-4c4c-90b0-91ec36565a49")
+	)
+	(fp_line
+		(start 2.3 -2.6)
+		(end -2.3 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "49cc1c95-3448-4b60-993c-76f6d2930b9f")
+	)
+	(fp_line
+		(start 2.6 2.6)
+		(end 2.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbb7f8af-0872-45c5-846c-8d683ce83160")
+	)
+	(fp_arc
+		(start -2.6 -2.6)
+		(mid -2.45 -2.75)
+		(end -2.3 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b389f66-9668-4a1b-9b6a-b8365a4fff96")
+	)
+	(fp_arc
+		(start -2.3 2.6)
+		(mid -2.45 2.75)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c5eecf6-5a49-42b5-9fa7-d432dd8a4440")
+	)
+	(fp_arc
+		(start 2.3 -2.6)
+		(mid 2.45 -2.75)
+		(end 2.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a0fb8554-dffb-437e-95de-41b4f813c26b")
+	)
+	(fp_arc
+		(start 2.6 2.6)
+		(mid 2.45 2.75)
+		(end 2.3 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4350d488-b17f-412e-b89e-10209a3cc6f3")
+	)
+	(fp_rect
+		(start -2.675 -2.675)
+		(end 3.85 2.675)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ef7813b5-acf4-450d-ae37-e7d43f10487e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22e83d7c-540c-4c34-9cac-147cd381d5fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 3.3 -1.95)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "412f0340-d9b5-4c63-a117-cea48b8cb34c")
+	)
+	(pad "2" smd roundrect
+		(at 3.1 0.3)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0780ddfb-7791-4205-a0b2-f7ee682f783d")
+	)
+	(pad "3" smd roundrect
+		(at 3.1 2.15)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "33063280-0c30-4073-9146-e416dcbf59c7")
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/mini-cvbs-camera.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

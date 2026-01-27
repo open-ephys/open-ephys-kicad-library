@@ -1,0 +1,204 @@
+(footprint "HIROSE_X.FL-R-SMT-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7fa41849-0775-436d-8a18-159f9a1903f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HIROSE_X.FL-R-SMT-1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66d7cc16-bc0d-4d57-9824-40868aafd244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19e35cee-cb5d-4ee7-bcf0-8d3da5f2646a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37173b5c-b8df-4e1d-acec-5363d01d10ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1.1)
+		(end -0.5 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "908470b2-8bdd-45d4-b7d8-70922b688ed5")
+	)
+	(fp_line
+		(start -0.505 1)
+		(end -1.095 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7a5dec1-6ea1-41eb-9303-8554b9ae8de2")
+	)
+	(fp_line
+		(start 0.5 -1.1)
+		(end 1.1 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc2e10f6-224b-472b-9fc8-16bb40f4f061")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 1.5) (xy 1.5 1.5) (xy 1.5 -1.5) (xy -1.5 -1.5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "367f4651-f686-41d4-ad51-a361794746c9")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "12e1ee63-3b10-4728-8350-23448f273f4a")
+	)
+	(fp_circle
+		(center 0 0.7)
+		(end 0.1 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2eb10c27-1dd4-4528-be71-8d55092adfb0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a324a8df-b49a-4d39-89a0-b873434d3e2b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0.975 180)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0d7f845-53b0-4840-bf08-6672ec8ccf1a")
+	)
+	(pad "2" smd rect
+		(at -1 0 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d53eded5-1d0b-4ab8-86d9-a5c01c93f6e0")
+	)
+	(pad "2" smd rect
+		(at 0 -1.025 180)
+		(size 0.5 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c596f536-4c25-4209-8b13-fb8066382955")
+	)
+	(pad "2" smd rect
+		(at 1 0 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bac4c98c-07f1-4aff-be95-a9c79af7ed26")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d5613a20-8430-4429-8ce7-a0c59bcd26c6")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.7 0.75) (xy -0.25 0.75) (xy -0.25 0.65) (xy 0.25 0.65) (xy 0.25 0.75) (xy 0.7 0.75) (xy 0.7 -0.75)
+				(xy -0.7 -0.75)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${OE_3DMODEL_DIR}/HIROSE_X.FL-R-SMT-1.stp"
+		(offset
+			(xyz -7.5 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
