@@ -70730,7 +70730,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(hide yes)
