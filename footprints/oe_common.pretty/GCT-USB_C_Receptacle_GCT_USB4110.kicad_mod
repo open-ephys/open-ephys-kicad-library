@@ -1,5 +1,5 @@
 (footprint "GCT-USB_C_Receptacle_GCT_USB4110"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7da051f1-85cf-4fd7-89f9-3319421e7ca3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -549,7 +537,7 @@
 		(uuid "442fb513-612c-4404-a6a0-af03eaddab33")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/open-ephys/Desktop/3d-model-repos/open-ephys/open-ephys-kicad-library/packages3d/GCT-USB4110-GF-A.STEP"
+	(model "${OE_3DMODEL_DIR}/GCT-USB4110-GF-A.STEP"
 		(offset
 			(xyz 0 2.6 0)
 		)
