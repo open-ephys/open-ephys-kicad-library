@@ -42199,10 +42199,9 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 21.59 0)
+			(at 14.605 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -42210,10 +42209,9 @@
 			)
 		)
 		(property "Value" "LT1995"
-			(at 0 19.05 0)
+			(at 14.605 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -42280,7 +42278,7 @@
 		(symbol "LT1995_0_1"
 			(polyline
 				(pts
-					(xy -16.51 12.7) (xy -21.59 12.7)
+					(xy -16.51 12.7) (xy -17.145 12.7)
 				)
 				(stroke
 					(width 0)
@@ -42292,7 +42290,7 @@
 			)
 			(polyline
 				(pts
-					(xy -16.51 7.62) (xy -21.59 7.62)
+					(xy -16.51 7.62) (xy -17.145 7.62)
 				)
 				(stroke
 					(width 0)
@@ -42304,7 +42302,7 @@
 			)
 			(polyline
 				(pts
-					(xy -16.51 2.54) (xy -21.59 2.54)
+					(xy -16.51 2.54) (xy -17.145 2.54)
 				)
 				(stroke
 					(width 0)
@@ -42316,7 +42314,7 @@
 			)
 			(polyline
 				(pts
-					(xy -16.51 -2.54) (xy -20.32 -2.54)
+					(xy -16.51 -2.54) (xy -17.145 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -42328,7 +42326,7 @@
 			)
 			(polyline
 				(pts
-					(xy -16.51 -7.62) (xy -20.32 -7.62)
+					(xy -16.51 -7.62) (xy -17.145 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -42340,7 +42338,7 @@
 			)
 			(polyline
 				(pts
-					(xy -16.51 -12.7) (xy -20.32 -12.7)
+					(xy -16.51 -12.7) (xy -17.145 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -42628,6 +42626,18 @@
 			)
 			(polyline
 				(pts
+					(xy -5.08 -7.62) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 5.08) (xy 10.16 0) (xy 0 -5.08) (xy 0 5.08)
 				)
 				(stroke
@@ -42803,18 +42813,6 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy -7.62 -7.62) (xy 7.874 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -7.62 -12.7)
 				(radius 0.254)
@@ -42862,6 +42860,18 @@
 			)
 			(polyline
 				(pts
+					(xy -5.08 -7.62) (xy 7.874 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.54 10.16) (xy -5.08 10.16)
 				)
 				(stroke
@@ -42886,7 +42896,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 0) (xy 20.32 0)
+					(xy 10.16 0) (xy 15.875 0)
 				)
 				(stroke
 					(width 0)
@@ -42898,7 +42908,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.446 -7.62) (xy 20.32 -7.62)
+					(xy 12.446 -7.62) (xy 15.875 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -42906,6 +42916,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 12.7 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(text "1k"
