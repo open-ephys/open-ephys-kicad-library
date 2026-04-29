@@ -16961,7 +16961,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
@@ -16997,7 +16997,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 11.43 270)
 				(length 2.54)
 				(name "VCC"
@@ -17276,7 +17276,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 0 10.16 270)
 				(length 2.54)
 				(name "VCC"
