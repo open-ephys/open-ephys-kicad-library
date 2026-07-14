@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "792b03f4-49a2-4e0f-96e8-cf63756ad5b1")
+		(uuid "254ffadf-2efd-463c-b5e1-e733645951b2")
 		(effects
 			(font
 				(size 1 1)
@@ -23,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bacf51d-c25b-4a2b-9896-d51ccfb8c526")
+		(uuid "73cde9e4-eeba-4071-a6fd-a87454184412")
 		(effects
 			(font
 				(size 1 1)
@@ -36,7 +36,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a07bca77-897e-4076-8409-603c2347d5e6")
+		(uuid "02bbcfe9-7dc6-4d80-9a03-60869b6b1b1b")
 		(effects
 			(font
 				(size 1 1)
@@ -49,7 +49,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "91a3ab29-23ef-4f73-9c9c-98158e30f47c")
+		(uuid "b705f257-76c5-4679-b46c-6789c7bd8a6b")
 		(effects
 			(font
 				(size 1 1)
@@ -68,7 +68,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "3cdf41d1-de99-4b9e-b9f6-a40c5cea9aa6")
+		(uuid "04045b44-f6ae-4dc9-b11c-a826ecc78109")
 	)
 	(fp_poly
 		(pts
@@ -81,8 +81,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "b7263535-ec29-41f0-977a-08798d9572f5")
+		(uuid "a7509439-38d3-4fd1-9e37-05f872022b53")
 	)
 	(fp_poly
 		(pts
@@ -95,8 +94,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "d7fb69e3-f08b-4188-b33c-72a8d6010f6b")
+		(uuid "95f22fda-b8c5-4555-822d-e4e659a71621")
 	)
 	(fp_poly
 		(pts
@@ -109,8 +107,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "91296a89-ab0b-46e5-a63d-94c3bf3fb64a")
+		(uuid "753fb847-e961-458f-b4ab-7949b0b8f437")
 	)
 	(fp_poly
 		(pts
@@ -123,8 +120,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "b42fb8e0-69ef-4783-bc66-512723bfa439")
+		(uuid "2c53da1f-3bbb-4009-837e-7c60b2117ab7")
 	)
 	(fp_poly
 		(pts
@@ -137,8 +133,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "57a2c1fa-e573-45bd-b01e-7e85830f9f82")
+		(uuid "450ff3c5-52eb-4427-9219-2b7bc012e44b")
 	)
 	(fp_poly
 		(pts
@@ -151,8 +146,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "eb4cab07-f30a-4972-9330-330130f80056")
+		(uuid "4571cb88-18c1-496f-99fc-b2f657ac24bd")
 	)
 	(fp_poly
 		(pts
@@ -165,8 +159,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "ba3b9af1-17a2-4e7e-ab08-8a83adf9eb43")
+		(uuid "02db06ec-85dc-4257-8062-32d10e74d289")
 	)
 	(fp_poly
 		(pts
@@ -179,8 +172,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "743ffb20-20ab-4702-9420-d635f0bb5b17")
+		(uuid "582a4a79-3895-4891-b8d7-48f9dd4d7327")
 	)
 	(fp_poly
 		(pts
@@ -193,8 +185,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "a7ce25c7-710e-44f7-939e-ea7953f4fbc6")
+		(uuid "2e2c4f70-e2a4-4d21-92b6-92feff4ff627")
 	)
 	(fp_poly
 		(pts
@@ -209,8 +200,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "e3f31acb-0908-4f83-a9a5-9d0876671ac7")
+		(uuid "54b88da9-d91e-4223-8f7c-7a24dd95e8ae")
 	)
 	(fp_poly
 		(pts
@@ -226,8 +216,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "22932d4d-9f98-4b56-ae80-d8aff8dfc71d")
+		(uuid "34fa3dc0-8e21-4a15-9ebf-736f71597767")
 	)
 	(fp_poly
 		(pts
@@ -242,8 +231,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "7fe31587-94f1-4f05-8f0c-12ac28e169d9")
+		(uuid "0f87d688-6759-4670-849b-61677d5d0b77")
 	)
 	(fp_poly
 		(pts
@@ -258,8 +246,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "07a1422f-4100-4210-9059-0704802c5672")
+		(uuid "f3bfeca7-890f-40c8-aca9-fde7e5f57d96")
 	)
 	(fp_poly
 		(pts
@@ -277,8 +264,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "06e084c9-1d73-4f7c-b9f9-5907476c906c")
+		(uuid "b412e72e-e675-46a5-b2d9-0412a9cfc8c8")
 	)
 	(fp_poly
 		(pts
@@ -299,8 +285,7 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "fa23cc99-5720-49ed-a0fc-e1bf44a0bb0b")
+		(uuid "690068fb-9b9f-40cc-bcd2-63568ccdfaf9")
 	)
 	(fp_poly
 		(pts
@@ -520,18 +505,30 @@
 		)
 		(fill yes)
 		(layer "Dwgs.User")
-		(net "Net-(U8-LX)")
-		(uuid "825a8c6c-e31f-40db-b84d-3f7887637f16")
+		(uuid "83a150cd-a75b-4818-95f3-b6d35f95022a")
 	)
-	(fp_text user "(placed on top of component)"
-		(at -9.34 3.87 0)
+	(fp_text user "(placed on top"
+		(at -2.37 0.96 0)
 		(unlocked yes)
 		(layer "Cmts.User")
-		(uuid "8b1e8790-ceb8-489b-96ba-71e088e6c53e")
+		(uuid "05716a2e-d150-41bd-83e2-939e30675242")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
+				(size 0.4 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "of component)"
+		(at -2.2 1.63 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "234de033-59dd-4b9b-9045-d2a10490d596")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -539,7 +536,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 -3.43 0)
 		(layer "Cmts.User")
-		(uuid "19db23b7-818e-4661-ac47-a917a117938a")
+		(uuid "044a51f5-66e6-4407-a094-1e08da68ef36")
 		(effects
 			(font
 				(size 1 1)
