@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.75 0)
 		(layer "F.SilkS")
-		(uuid "1a5c989b-1131-4f6c-b321-0fc2a67ec97f")
+		(uuid "9cff7094-1308-4564-8464-f2b595b1a0ef")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "MountingHole_1.2mm_M1.2_ISO1207_Pad"
 		(at 0 2.75 0)
 		(layer "F.Fab")
-		(uuid "408eded0-0b74-4515-982e-272680a61dc8")
+		(uuid "e23e838e-20d1-42e9-a1bc-094fe9a90623")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c1e4a353-89cc-472d-8caf-f70d9f75fbf7")
+		(uuid "cfec24dd-3e75-410b-98d5-5705e2490768")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a2f53df-3b43-4b75-a6ed-c833c6bac30b")
+		(uuid "282b4880-7ce2-4d25-9aeb-59ac50437dd1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,16 +64,16 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "70df7407-1b0d-442a-bcd2-6334a2d82cc9")
+		(uuid "7ecb09e9-9852-4a03-97d4-25d1d255ffd8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "994a1afc-051a-4e3f-a3b7-0d3fab8f7139")
+		(uuid "f2bc4e01-8092-4341-9f28-280e8062a255")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -83,7 +83,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3e9794a5-f3de-4c87-9e7a-651e4082363c")
+		(uuid "1a83d1a5-8ffc-4077-aae1-5ec010d3346f")
 	)
 	(embedded_fonts no)
 )
